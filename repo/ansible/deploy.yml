@@ -1,13 +1,7 @@
 ---
+- hosts: dev
+  tasks:
     - name: deploy release folder
       win_copy:
-          src: /home/Package/
+          src: /home/1.txt
           dest: C:\temp\FacultyPortal\
-    - name: deploy build folder
-      win_copy:
-          src: /home/build/
-          dest: C:\temp\FacultyPortal\api\
-    - name: deploy development folder
-      win_copy:
-          src: /home/development/
-          dest: C:\temp\FacultyPortal\api\
