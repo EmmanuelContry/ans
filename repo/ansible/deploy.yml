@@ -1,0 +1,13 @@
+---
+    - name: deploy release folder
+      win_copy:
+          src: /home/Package/
+          dest: C:\temp\FacultyPortal\
+    - name: deploy build folder
+      win_copy:
+          src: /home/build/
+          dest: C:\temp\FacultyPortal\api\
+    - name: deploy development folder
+      win_copy:
+          src: /home/development/
+          dest: C:\temp\FacultyPortal\api\

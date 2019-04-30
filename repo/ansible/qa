@@ -1,0 +1,8 @@
+[qa]
+ATI-FAC-2189
+
+ansible_user=Qualitest - SDX1022
+ansible_password=Qualitest1
+ansible_port=5986
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
